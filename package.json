@@ -1,0 +1,33 @@
+{
+  "name": "hng-frontend-stage-zero",
+  "version": "1.0.0",
+  "description": "A responsive, accessible profile card component for HNG Frontend Stage 0",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server .",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "profile-card",
+    "responsive",
+    "accessible",
+    "vanilla-js",
+    "hng",
+    "frontend"
+  ],
+  "author": "Vincent Onyenze",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vincentonyenze/hng-frontend-stage-zero"
+  },
+  "homepage": "https://vincentonyenze.vercel.app/",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
