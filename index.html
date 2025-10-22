@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Card - Stage 0</title>
+    <title>Vincent Onyenze - Frontend Developer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <article data-testid="test-profile-card">
+    <nav class="main-nav" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">Vincent Onyenze</a>
+            <button class="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Me</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="page-container">
+        <article data-testid="test-profile-card">
         <div class="card-container">
             <header class="card-header">
                 <figure>
@@ -132,7 +149,8 @@
                 </div>
             </div>
         </div>
-    </article>
+        </article>
+    </main>
 
     <script src="script.js"></script>
 </body>
